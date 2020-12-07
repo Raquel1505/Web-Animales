@@ -1,0 +1,275 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no, initial-scale=1.0, maximum-scale=1.0, mininum-scale=1.0">
+    <title>Todo Sobre Tu Mascota</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <center><img src="data:image/jpeg;base64,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" alt="Flowers in Chania" style="width:1000px;height:200px;"></center>
+  
+  </head>
+
+
+  <body>
+  
+    <div class="container" >
+      <h1 style= text-align:center;font-size:60px;color:orange; >Todo sobre tu mascota</h1>
+
+     
+     
+
+      <div class="btn-group">
+        <a href="index.html.html"><button type="button" class="btn btn-lg btn-block"; style= color:white;background-color:orange;>INICIO</button></a>
+        <a href="ProyectoWeb2.html"><button type="button" class="btn btn-lg btn-block"; style= color:white;background-color:orange;>PERROS</button></a>
+        <a href="ProyectoWeb3.html"><button type="button" class="btn btn-lg btn-block"; style= color:white;background-color:orange;>GATOS</button></a>
+        <a href=""><button type="button" class="btn btn-lg btn-block"; style= color:white;background-color:orange;>AVES</button></a>
+        <a href=""><button type="button" class="btn btn-lg btn-block"; style= color:white;background-color:orange;>PECES</button></a>
+
+        </div>
+        
+        <div><p></p></div>
+         <div><img width="150" height="350" src="https://cadenaser00.epimg.net/ser/imagenes/2015/10/19/sociedad/1445252095_618647_1445271926_noticia_normal.jpg" class="d-block w-100" alt="..."></div>
+        <div>
+          <h1>PELUQUERÍA</h1>
+          <p>Aunque no es algo que deba hacerse con frecuencia, bañar a un gato es una tarea que puede resultar
+               de lo más difícil. Así que, si algún día tienes que hacerlo, conocer estos trucos te será de gran
+                utilidad.
+
+            Antes que nada, la gran pregunta que debemos hacernos es: ¿es imprescindible bañar a un gato?
+             La respuesta puede ser controvertida, pero lo cierto es que no es algo obligatorio, ya que los 
+             felinos suelen tener un buen cuidado de su higiene.
+            
+            Dicho esto, sí es cierto que en ciertas situaciones puede ser necesario, bien porque tu compañero 
+            ha estado enfermo o fuera de casa y no ha podido ocuparse de su higiene, bien porque necesita un 
+            tratamiento dermatológico por algún problema en su piel.
+            
+            Como hay diversas circunstancias que pueden hacer necesario que bañes a tu gato, veamos a qué trucos
+             puedes recurrir para que sea lo más fácil posible para ti y lo menos incómodo para él.</p>
+
+          <th>
+              <ul>
+                  <li>Prepara bien el lugar del baño.
+                    Cuando necesites bañar a tu gato, te recomendamos que tengas en cuenta el espacio donde lo vas a hacer. Elige un lugar que te sea cómodo y ten a mano todo aquello que vayas a necesitar: un jabón específico para felinos, una toalla, etc.
+                  </li>
+                  <li>Ármate de paciencia.
+                    Como ya hemos avanzado, lo más probable es que bañar a tu gato no vaya a ser fácil. Así que, mantén la calma en todo momento, ten paciencia y sé tolerante. Eso sí, también es importante que actúes con seguridad en ti.
+                  </li>
+                  <li>Cepíllalo antes.
+                    Quítale el exceso de pelo muerto cepillándolo antes del baño y, si tiene algún nudo en el pelaje, deshazlo o córtaselo. También puedes hacerlo el día anterior para reducir el estrés de la jornada del baño.
+                  </li>
+                    <li>Intenta hacerlo con ayuda.
+                    Si sois dos personas para bañar a tu gato, será mejor tanto para el manejo del felino como para poder transmitirle una mayor sensación de calma al animal. Además, es importante que le hables con dulzura y suavemente durante todo el proceso.
+                    </li>
+                    <li>Elige bien el día.
+                    Es conveniente que, cuando bañes a tu felino, no esté excesivamente nervioso. Además de que eso te dificultaría mucho la operación, si lo está, podría sufrir algún tipo de bloqueo o trauma, así que no lo obligues a someterse al baño e inténtalo en otro momento. Tu gato es muy sensible emocionalmente y algo así podría acarrear problemas futuros. Puedes valorar su estado de ánimo acercándote a él, acariciándolo (cosa que además te ayudará a relajarlo) y escuchando el grado de su ronroneo.
+                     </li>
+                     <li>Protege sus oídos.
+                    Antes de la exposición al agua, debes ponerle una bolita de algodón en cada oído para evitar que el líquido pueda causarle problemas. Al bañarlo, hazlo con agua templada (unos 30 °C) y no lo sumerjas en la pica o bañera.    
+                     </li>
+                     <li>Sigue estos pasos.
+                    Empieza a ponerle agua desde el cuello hacia abajo para no agobiarlo. Lo puedes hacer con la mano, suave y lentamente, o con una esponja. Cuando todo su cuerpo esté mojado, enjabónalo y deja que el jabón actúe 5 minutos (o más si se trata de un tratamiento veterinario que lo requiera). Vuelve a pasarle agua por todo el cuerpo hasta que esté bien aclarado. Es muy importante que no le queden restos de jabón, ya que podrían producirle picores o reacciones en la piel.  
+                     </li>
+                     <li>No uses el secador.
+                    A la mayoría de los gatos no les gusta el secador por el ruido que hace, así que te recomendamos que no lo uses, a no ser que tu gato lo tolere. En lugar de eso, puedes usar una toalla, con cuidado y cariño, e incluso poner alguna fuente de calor cerca que no pueda provocar incendios, como un radiador o una estufa de aceite.  
+                     </li>
+              </ul>
+          </th>
+             
+        </div>
+        <div>
+          <h1>ALIMENTACION</h1>
+          <p></p>
+             <table width="100%" cellspacing="1"  border=1 bordercolor="#000000" style="border-collapse:collapse;border-color:orange;">
+              <tr>
+                <th>Alimentos que si pueden comer</th>
+                <th>Alimentos que NO pueden comer</th>
+              </tr>
+              <tr>
+                <th><ul>
+                  <li>Carne de pollo, pavo y vaca(siempre cocinada) </li>
+                  <li>Pescado(cocinado y sin espinas)</li>
+                  <li>Embutido</li>
+                  <li>Zanahoria, acelga...</li>
+                  <li>Melocotón y sandía son de las pocas frutas que se les puede dar</li>
+                  <li>Yogur natural</li>
+                  <li>Huevos cocidos, nunca crudo</li>
+                </ul></th>
+                <th><ul>
+                  <li>Frutas como uvas, naranjas, pomelos, aguacates o limones</li>
+                  <li>Verduras como cebolla, ajo, patata o tomate</li>
+                  <li>Nada de chocolate, café o té</li>
+                  <li>Comida para perros</li>
+                  <li>Sin sal ni azúcar, por favor</li>
+                  <li>La leche es uno de los alimentos prohibidos para gatos</li>
+                  <li>Pescado con espinas o carne con huesos pequeños</li>
+                  <li>Alcohol, drogas o cualquier tipo de estimulante</li>
+                </ul></th>
+              </tr>
+              </table>
+        </div>
+        <div>
+          <h1>COMPLEMENTOS</h1>
+            <P>Como para todas las mascotas hay innumerables complementos para nuestros gatos,
+               aunque te ayudaremos para que sepas lo que no te puede faltar si tienes un gato en casa.</P>
+              <table width="100%">
+                <tr>
+                <th width="45%"><p style="color:orange;">COMEDERO</p>
+                  Por supuesto, uno de los accesorios imprescindibles para gatos es el comedero. Los hay más o 
+                  menos elegantes, más o menos básicos, pero realmente, lo más importante es el tipo de material 
+                  con el que estén hechos.
+                </th>
+                <th><img width="70" height="250" src="https://images-na.ssl-images-amazon.com/images/I/61vg9RD55BL._AC_SX522_.jpg" class="d-block w-100" alt="..."></th>
+                <tr>
+                  <th width="45%"><p style="color:orange;">BEBEDERO</p>
+                   El bebedero es tan imprescindible -o incluso más- que el comedero. Al igual que el producto anterior,
+                   se puede obtener de tres materiales distintos. Ahora, ante todo, ten en cuenta que lo más importante 
+                   es cambiar el agua diariamente con el fin de que pueda tomar este líquido estando fresquito. El animal
+                    te lo agradecerá.
+                  </th>
+                  <th><img width="70" height="250" src="https://www.mascotaplanet.com/23510-large_default/tolva-bebedero-perros-gatos-water-store.jpg" class="d-block w-100" alt="..."></th>
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">CAMA</p>
+                  Sí, has leído bien: una cama. ¿Cuál es el motivo? Simplemente, a los gatos no les gusta dormir
+                   siempre en el mismo lugar. Por este motivo, es más que aconsejable tener varios rincones para 
+                   que el felino pueda descansar y dormir a gusto. No es necesario que sean todas camas como tales,
+                    sino que puedes tener en un sitio una alfombra, y en otro, por ejemplo, una cueva. 
+                  </th>
+                  <th><img width="70" height="250" src="https://ae01.alicdn.com/kf/H327dcb8b4131493f8ab2851d24b386941.jpg_q50.jpg" class="d-block w-100" alt="..."></th>
+
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">PEINE</p>
+                  ¿A qué gato no le gusta que le peinen mientras siente un suave masaje en el lomo? Ambas acciones
+                   se consiguen con un peine. Además, al gato se le debe cepillar a diario. Hay que quitarle el pelo
+                    muerto, pues así se disminuye el riesgo de que se le puedan formar las temidas bolas de pelo, las
+                   cuales le provocaría estreñimiento y vómitos, entre otros síntomas. Pero cada tipo de pelo tiene su
+                    propio peine o cepillo.</th>
+                    <th><img width="70" height="250" src="https://m.media-amazon.com/images/I/51ONwL0t38L._AC_SX522_.jpg" class="d-block w-100" alt="..."></th>
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">RASCADOR</p>
+                  Tu gato va a querer tener sus uñas afiladas. Pero claro, no puede utilizar cualquier cosa para
+                   este fin, sino que debe de utilizar su rascador. En el mercado hay muchos modelos y precios diferentes.
+                    Con el paso del tiempo averiguarás el que mejor te conviene. Es más, para mayor protección del hogar podrás 
+                    comprar más de uno.
+                  </th>
+                  <th><img width="70" height="250" src="https://www.mundodeportivo.com/r/GODO/MD/p5/ContraPortada/Imagenes/2018/03/31/Recortada/img_mvalle_20180331-160029_imagenes_md_otras_fuentes_img_rascador_casero_para_gatos_20396_600-kl0B-U442084102878exD-980x554@MundoDeportivo-Web.jpg" class="d-block w-100" alt="..."></th>
+
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">JUGUETES</p>
+                  Si de camas y rascadores hay de muchísimos tipos, de juguetes hay unos cuantos más. Por ejemplo,
+                   podemos encontrar peluches, pelotas, plumas o punteros láser, entre otros. Lo ideal es que el gato
+                    tenga 4 diferentes: dos para jugar siempre que quiera, y otros dos que sólo sacaremos nosotros una 
+                    o dos veces al día. Así conseguiremos que no se aburra de ellos tan rápidamente.</th>
+                    <th><img width="70" height="250" src="https://ae01.alicdn.com/kf/HTB1ZZnTMAvoK1RjSZPfq6xPKFXaH.jpg_q50.jpg" class="d-block w-100" alt="..."></th>
+
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">BANDEJA DE ARENA</p>
+                  La bandeja de arena, o también conocido como arenero, será el servicio particular del gato. Los hay con o sin tapa. 
+                  Que elijas uno u otro dependerá, principalmente, de la preferencia del animal. Hay gatos a los que no les gusta 
+                  tanto la intimidad, por lo que preferirán hacer sus necesidades sin tanto cobijo; ahora, los de tapa son más
+                   higiénicos en un hogar. Pero recuerda, el gato será quien tenga la última palabra.</th>
+                   <th><img width="70" height="250" src="https://www.purina-latam.com/sites/g/files/auxxlc391/files/styles/facebook_share/public/purina-como-usar-una-caja-de-arena-para-gatos.png?itok=xhozbs2S" class="d-block w-100" alt="..."></th>
+
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">ROLLO QUITAPELUSAS</p>
+                  No es un accesorio que sirva para cuidar del gato, pero sí que será de lo más eficaz para cuidar de los muebles, sobre todo 
+                  en época de muda. El rollo quitapelusas o quitapelos es la mejor herramienta que puede tener cualquier persona que conviva con
+                   un gato con pelo. Es de muy fácil uso, y no requiere de ningún tipo de mantenimiento. Pásalo por los sofás y las camas, y ya 
+                   verás como vuelven a estar libres de pelos. Es más, es ideal incluso para tu ropa.</th>
+                   <th><img width="70" height="250" src="https://www.limpiezapedia.com/wp-content/uploads/2020/12/rodillo-para-quitar-pelos-de-gato.jpg" class="d-block w-100" alt="..."></th>
+
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">TRANSPORTÍN</p>
+                  El transportín es otro de los accesorios imprescindibles para gatos. Sin él no podríamos trasladar a nuestra mascota cuando nos
+                   fuéramos de vacaciones. Ni siquiera, sin este elemento, podríamos llevar al animal a las consultas veterinarias,
+                    y debemos hacer, mínimo, las revisiones periódicas anuales.</th>
+                    <th><img width="70" height="250" src="https://images-na.ssl-images-amazon.com/images/I/61HVlijKmpL._AC_SX466_.jpg" class="d-block w-100" alt="..."></th>
+
+                </tr>
+                <tr>
+                  <th width="45%"><p style="color:orange;">UNA MANTA</p>
+                  Sí, puede resultar exagerado, pero a los gatos, al igual que a las personas, les encanta taparse, sobre todo si en algún momento
+                   sienten frío. Incluso la usan como modo de protección. Cuando necesitan calma, muchas veces deciden refugiarse 
+                   bajo el calor de una manta hasta que deciden volver al “mundo real”.</th>
+                   <th><img width="70" height="250" src="https://content.omlet.co.uk/images/originals/cat-blanket-luxury-soft-plush-omlet.jpg" class="d-block w-100" alt="..."></th>
+
+                  </tr>
+              
+              </table>
+              
+        </div>
+        <div>
+          <h1>CURIOSIDADES</h1>
+          <P>Los gatos son a menudo considerados criaturas misteriosas, con un carácter especial y casi místico. Se trata del animal que en el imaginario colectivo acompaña a las brujas y, para qué engañarnos,
+             a los malos de la película. Afortunadamente se trata de mitos que solo tienen su lugar en la literatura o en el cine. Los mininos de carne y hueso dan buenas muestras de su afabilidad cada día a lo
+              largo y ancho del planeta y protagonizan millones de vídeos adorables que circulan por Internet. De hecho, poner un gato en tu vida digital es casi sinónimo de éxito, tal es la adoración que despierta
+               esta mascota entre la concurrencia.</P>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/KomQpxo9RTc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div style= margin-top:40px;margin-right:150px;margin-bottom:40px;margin-left:70px;background-color:orange;width:100%><div class="nav">
+
+          <div class="container">
+    
+                  <div class="row">
+    
+                          <nav><!-- Block user information module NAV  -->
+      <div id="mobile_links">
+      <div class="current selected">
+      <span class="cur-label"> <i class="icon-user"></i> Mi cuenta</span>
+      </div>
+      <ul class="toogle_content header_link">
+      <li>
+      <a class="link-myaccount" href="" title="Cuenta"><i class="icon-user"></i>  Cuenta</a></li>
+      <li>
+      <a class="link-wishlist wishlist_block" href="" title="Mi lista de"><i class="icon-heart"></i>  Mi lista de</a></li>
+      <li>
+      <a class="link-mycart" href="" title="Mi carrito"><i class="icon-shopping-cart"></i>  Mi carrito</a>
+      </li>
+      <li class="last">
+      <a class="link-login" href="" title="Iniciar Sesión" rel="nofollow"><i class="icon-lock"></i>  Iniciar Sesión</a>
+      </li>
+      </ul>
+      </div>
+      <!-- Block languages module -->
+      <!-- /Block languages module -->
+    
+    
+      <div class="welcome-text">
+      <p><strong><span>955 25 74 89 – 658 56 14 78<br></span></strong></p>
+      </div>
+    
+      </nav>
+    
+                  </div>
+    
+          </div>
+    
+      </div></div>
+    
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    
+
+
+    </div>
+  </body>
+</html>
